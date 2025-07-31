@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أتقن الأعصاب الدماغية بسهولة: دليلك الشامل لـ Cranial Nerves | اسم موقعك</title>
+    <style>
+        /* CSS Inlined for a single file solution */
+
+        /* الألوان الأساسية والمتغيرات */
+        :root {
+            --primary-color: #007bff; /* أزرق */
+            --secondary-color: #28a745; /* أخضر */
+            --text-color: #333;
+            --light-bg: #f8f9fa;
+            --dark-bg: #343a40;
+            --white: #fff;
+            --gray-light: #e9ecef;
+            --border-color: #dee2e6;
+        }
+
+        /* تنسيقات عامة */
+        body {
+            font-family: Arial, sans-serif; /* خط قياسي */
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            direction: rtl; /* لضمان دعم اللغة العربية */
+            text-align: right; /* لضمان دعم اللغة العربية */
+            line-height: 1.6;
+            background-color: var(--light-bg);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* الأزرار العامة */
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            font-size: 1em;
+        }
+
+        .primary-btn {
+            background-color: var(--primary-color);
+            color: var(--white);
+            border: 1px solid var(--primary-color);
+        }
+
+        .primary-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .secondary-btn {
+            background-color: transparent;
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+        }
+
+        .secondary-btn:hover {
+            background-color: var(--primary-color);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        h1, h2, h3 {
+            color: #0d47a1;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* شريط التنقل العلوي (Navigation Bar) */
+        .navbar {
+            background-color: var(--dark-bg);
+            color: var(--white);
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo a {
+            color: var(--white);
+            font-size: 1.8em;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar nav ul li {
+            margin-right: 25px; /* مسافة بين العناصر */
+        }
+
+        .navbar nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        .navbar nav ul li a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .navbar nav ul li a:hover,
+        .navbar nav ul li a.buy-button-nav:hover {
+            color: var(--primary-color);
+        }
+        
+        .navbar nav ul li a.buy-button-nav {
+            background-color: var(--primary-color);
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .menu-toggle {
+            display: none; /* مخفي افتراضيًا لغير الهواتف */
+            font-size: 1.8em;
+            cursor: pointer;
+            color: var(--white);
+        }
+
+        /* القسم الرئيسي الجذاب (Hero Section) */
+        .hero-section {
+            background: linear-gradient(to left, #e0f7fa, #bbdefb); /* تدرج لوني جذاب */
+            padding: 100px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-section .container {
+            display: flex;
+            flex-direction: row-reverse; /* ترتيب العناصر ليتناسب مع RTL */
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .hero-content {
+            flex: 1;
+            text-align: right;
+        }
+
+        .hero-content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 1.2em;
+            color: #444;
+            margin-bottom: 30px;
+        }
+
+        .hero-content .btn {
+            margin-left: 15px; /* مسافة بين الأزرار */
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        /* استعاضة عن الصورة بـ div أو رمز */
+        .hero-image .placeholder-image {
+            width: 350px;
+            height: 300px;
+            background-color: #a7d9f7; /* لون للمربع */
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            color: #333;
+            margin: 0 auto;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+            animation: float 3s ease-in-out infinite;
+        }
+        .hero-image .placeholder-image::before {
+            content: "📚 حزمة الملفات 🧠"; /* رمز للملفات والدماغ */
+            position: absolute;
+            font-size: 1.2em;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.8);
+            border-radius: 8px;
+        }
+
+
+        /* قسم المشكلة والحل */
+        .problem-solution-section {
+            background-color: var(--white);
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .problem-solution-section .container {
+            display: flex;
+            justify-content: space-around;
+            gap: 40px;
+        }
+
+        .problem, .solution {
+            flex: 1;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: var(--light-bg);
+            text-align: right;
+        }
+        .problem { background-color: #ffebee; border: 1px solid #ef9a9a; }
+        .solution { background-color: #e8f5e9; border: 1px solid #a5d6a7; }
+
+
+        .problem h2, .solution h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        .problem h2 span, .solution h2 span {
+            font-size: 1.2em;
+            margin-left: 10px;
+        }
+
+
+        .problem ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .problem ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            position: relative;
+            padding-right: 25px;
+        }
+        .problem ul li::before {
+            content: '❌'; /* رمز للمشكلة */
+            position: absolute;
+            right: 0;
+            color: #dc3545;
+            font-size: 0.9em;
+        }
+        .solution p {
+            font-size: 1.1em;
+        }
+
+        /* قسم محتويات الحزمة بالتفصيل (Product Features & Benefits) */
+        .product-features-section {
+            background-color: var(--light-bg);
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .product-features-section h2 {
+            margin-bottom: 50px;
+            font-size: 2.5em;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            background-color: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            text-align: right;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card .placeholder-thumbnail {
+            width: 100%;
+            height: 180px;
+            background-color: #cfd8dc; /* لون للمصغرة */
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            color: #555;
+            overflow: hidden;
+            position: relative;
+        }
+        .feature-card .placeholder-thumbnail::before {
+            content: '📄 معاينة ملف';
+            position: absolute;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .feature-card p {
+            font-size: 0.95em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .download-all-cta {
+            margin-top: 60px;
+        }
+
+        .download-all-cta .btn {
+            font-size: 1.3em;
+            padding: 15px 40px;
+        }
+
+
+        /* قسم "لماذا تختار حزمتنا؟" (Why Choose Us?) */
+        .why-us-section {
+            background-color: var(--white);
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .why-us-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 50px;
+        }
+
+        .usp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .usp-item {
+            background-color: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .usp-item:hover {
+            background-color: #e0f2f7;
+        }
+
+        .usp-item .icon {
+            font-size: 2.5em;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .usp-item h3 {
+            font-size: 1.4em;
+            color: #0d47a1;
+            margin-bottom: 10px;
+        }
+
+        .usp-item p {
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        /* قسم شهادات العملاء (Testimonials) */
+        .testimonials-section {
+            background-color: #e0f7fa; /* لون فاتح لخلفية القسم */
+            padding: 80px 0;
+            text-align: center;
+            overflow: hidden; /* لإخفاء العناصر خارج الكاروسيل */
+            position: relative;
+        }
+        .testimonials-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 50px;
+        }
+
+        .testimonial-carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            justify-content: center; /* توسيط الشهادات */
+        }
+
+        .testimonial-item {
+            min-width: 60%; /* عرض كل شهادة في الكاروسيل */
+            margin: 0 20px; /* مسافة بين الشهادات */
+            background-color: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            flex-shrink: 0; /* لمنع انكماش العناصر */
+            opacity: 0; /* مخفي افتراضيا لـ JS */
+            transition: opacity 0.5s ease;
+        }
+        .testimonial-item.active {
+            opacity: 1; /* اظهار النشط */
+        }
+
+        .testimonial-item p {
+            font-style: italic;
+            margin-bottom: 25px;
+            font-size: 1.1em;
+            color: #444;
+        }
+
+        .client-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .client-info .placeholder-avatar {
+            width: 70px;
+            height: 70px;
+            background-color: #bdbdbd; /* لون للوجه */
+            border-radius: 50%;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.5em;
+        }
+
+        .client-info h4 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 1.2em;
+        }
+
+        .client-info span {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .carousel-nav {
+            margin-top: 30px;
+        }
+
+        .carousel-nav button {
+            background-color: var(--primary-color);
+            color: var(--white);
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        .carousel-nav button:hover {
+            background-color: #0056b3;
+        }
+        .carousel-nav button span {
+            display: block; /* لضمان ظهور الرمز */
+        }
+
+        /* قسم الأسئلة الشائعة (FAQ) */
+        .faq-section {
+            background-color: var(--light-bg);
+            padding: 80px 0;
+            text-align: center;
+        }
+        .faq-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 50px;
+        }
+
+        .faq-accordion {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: right;
+        }
+
+        .faq-item {
+            background-color: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .faq-question {
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: var(--text-color);
+            background-color: var(--white);
+            transition: background-color 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background-color: #f0f0f0;
+        }
+
+        .faq-question span {
+            margin-left: 10px; /* مسافة للأيقونة */
+            transition: transform 0.3s ease;
+        }
+
+        .faq-question.active span {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+            padding: 0 20px;
+            background-color: #fafafa;
+            color: #555;
+        }
+
+        .faq-answer p {
+            padding-bottom: 20px;
+            margin: 0;
+        }
+
+
+        /* قسم دعوة لاتخاذ إجراء نهائية (Final Call to Action) */
+        .cta-final-section {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 80px 0;
+            text-align: center;
+        }
+        .cta-final-section h2 {
+            color: var(--white);
+            font-size: 2.8em;
+            margin-bottom: 20px;
+        }
+        .cta-final-section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cta-final-section .special-offer {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ffe082; /* لون ذهبي للعرض */
+            margin-bottom: 40px;
+        }
+        .cta-final-section .large-btn {
+            padding: 18px 50px;
+            font-size: 1.5em;
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        .cta-final-section .large-btn:hover {
+            background-color: #218838;
+            border-color: #218838;
+        }
+
+        /* شريط المعلومات السفلي (Footer) */
+        .footer {
+            background-color: var(--dark-bg);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        .footer .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .footer-links ul li {
+            margin: 0 15px;
+        }
+
+        .footer-links ul li a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links ul li a:hover {
+            color: var(--primary-color);
+        }
+
+        .social-media {
+            margin-bottom: 20px;
+        }
+
+        .social-media a {
+            color: var(--white);
+            font-size: 1.5em;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .social-media a:hover {
+            color: var(--primary-color);
+        }
+
+        /* رسوم متحركة (Animations) */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Media Queries للتجاوبية (Responsive Design) */
+        @media (max-width: 768px) {
+            .navbar nav ul {
+                display: none; /* إخفاء قائمة التنقل الافتراضية */
+                flex-direction: column;
+                width: 100%;
+                background-color: var(--dark-bg);
+                position: absolute;
+                top: 65px; /* أو حسب ارتفاع الناف بار */
+                left: 0;
+                right: 0;
+                z-index: 999;
+                padding: 10px 0;
+                text-align: center;
+            }
+            .navbar nav ul.active {
+                display: flex; /* إظهار القائمة عند تفعيلها بالزر */
+            }
+            .navbar nav ul li {
+                margin: 10px 0;
+            }
+            .menu-toggle {
+                display: block; /* إظهار زر القائمة للهواتف */
+            }
+
+            .hero-section .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero-content {
+                text-align: center;
+            }
+            .hero-content h1 {
+                font-size: 2.5em;
+            }
+            .hero-image .placeholder-image {
+                width: 250px;
+                height: 220px;
+            }
+
+            .problem-solution-section .container {
+                flex-direction: column;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+            .testimonial-item {
+                min-width: 90%; /* عرض أكبر للشهادات في الشاشات الصغيرة */
+            }
+            .faq-accordion {
+                padding: 0 10px;
+            }
+            .cta-final-section h2 {
+                font-size: 2em;
+            }
+            .cta-final-section .large-btn {
+                font-size: 1.2em;
+                padding: 15px 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">اسم علامتك التجارية</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#features">المحتويات</a></li>
+                    <li><a href="#why-us">لماذا نحن؟</a></li>
+                    <li><a href="#testimonials">آراء العملاء</a></li>
+                    <li><a href="#faq">الأسئلة الشائعة</a></li>
+                    <li><a href="#cta-final" class="buy-button-nav">اشترِ الآن</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" role="button" aria-label="Toggle navigation">
+                &#9776; </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>أتقن الأعصاب الدماغية بسهولة: دليلك الشامل لـ Cranial Nerves</h1>
+                <p>احصل على أفضل شرح تشريحي ووظيفي للأعصاب الدماغية مع رسومات توضيحية وجداول مبسطة ومحتوى من إعداد خبراء.</p>
+                <a href="#product-details" class="btn primary-btn">احصل على حزمتك الآن بسعر خاص!</a>
+                <a href="#sample" class="btn secondary-btn">حمّل عينة مجانية</a>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image" aria-label="صورة توضيحية لحزمة ملفات الأعصاب الدماغية">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="problem-solution-section">
+        <div class="container">
+            <div class="problem">
+                <h2><span>&#9888;</span> هل تواجه هذه التحديات؟</h2>
+                <ul>
+                    <li><p>صعوبة في فهم تعقيدات الأعصاب الدماغية.</p></li>
+                    <li><p>تضييع الوقت في البحث عن مصادر موثوقة ومبسطة.</p></li>
+                    <li><p>الحاجة لرسومات تشريحية واضحة وجداول تلخص الوظائف.</p></li>
+                </ul>
+            </div>
+            <div class="solution">
+                <h2><span>&#128161;</span> الحل بين يديك!</h2>
+                <p>نقدم لك <strong>حزمة متكاملة من ملفات PDF</strong> مصممة خصيصًا لتبسيط دراسة الأعصاب الدماغية وتجعلها في متناول يدك.</p>
+                <a href="#product-details" class="btn primary-btn">اكتشف الحل الآن!</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="product-features-section">
+        <div class="container">
+            <h2>محتويات حزمة الأعصاب الدماغية الشاملة</h2>
+            <div class="feature-grid">
+
+                <div class="feature-card">
+                    <div class="placeholder-thumbnail" aria-label="صورة مصغرة لملف التشريح"></div>
+                    <h3>الملف 1: تشريح الأعصاب الدماغية بالرسومات اليدوية</h3>
+                    <p>رسومات تشريحية دقيقة ومفصلة بخط اليد لتوضيح المسارات العصبية بطريقة لم ترها من قبل، مثالي للفهم البصري. (14 صفحة، 4 ميجابايت)</p>
+                    <a href="#" class="btn secondary-btn view-details-btn" data-file-id="file1">معاينة وتفاصيل</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="placeholder-thumbnail" aria-label="صورة مصغرة لملف الوظائف"></div>
+                    <h3>الملف 2: شرح نظري لوظائف الأعصاب الدماغية</h3>
+                    <p>يبدأ برسم الأعصاب من الجهة التشريحية ثم يشرح الأسماء والوظائف بشكل نظري ومنظم. (8 صفحات، 5 ميجابايت)</p>
+                    <a href="#" class="btn secondary-btn view-details-btn" data-file-id="file2">معاينة وتفاصيل</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="placeholder-thumbnail" aria-label="صورة مصغرة لملف الجداول"></div>
+                    <h3>الملف 3: ملخص فسيولوجي وجداول وظيفية</h3>
+                    <p>ملف نظري فسيولوجي يتضمن التشريح والوظائف المختلفة على شكل جداول مبسطة ومكثفة للمراجعة السريعة. (17 صفحة، 530 كيلوبايت)</p>
+                    <a href="#" class="btn secondary-btn view-details-btn" data-file-id="file3">معاينة وتفاصيل</a>
+                </div>
+
+            </div>
+            <div class="download-all-cta">
+                <a href="#cta-final" class="btn primary-btn">احصل على الحزمة الكاملة الآن!</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="why-us-section">
+        <div class="container">
+            <h2>لماذا حزمتنا هي الخيار الأمثل لك؟</h2>
+            <div class="usp-grid">
+                <div class="usp-item">
+                    <span class="icon">&#128218;</span> <h3>تكامل وشمولية</h3>
+                    <p>حزمة واحدة تغنيك عن البحث في عشرات المصادر المختلفة.</p>
+                </div>
+                <div class="usp-item">
+                    <span class="icon">&#128161;</span> <h3>تبسيط وسهولة فهم</h3>
+                    <p>محتوى مصمم خصيصًا لتبسيط أعقد المفاهيم التشريحية والفسيولوجية.</p>
+                </div>
+                <div class="usp-item">
+                    <span class="icon">&#127894;</span> <h3>جودة محتوى عالية</h3>
+                    <p>تم إعدادها بواسطة متخصصين مع رسومات توضيحية احترافية وفريدة.</p>
+                </div>
+                <div class="usp-item">
+                    <span class="icon">&#9200;</span> <h3>توفير الوقت والجهد</h3>
+                    <p>لا مزيد من التشتت، كل ما تحتاجه لدراسة الأعصاب الدماغية في مكان واحد.</p>
+                </div>
+                <div class="usp-item">
+                    <span class="icon">&#128229;</span> <h3>إمكانية وصول فوري</h3>
+                    <p>حمل الملفات فورًا بعد الشراء وابدأ دراستك دون تأخير.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2>ماذا يقول طلابنا عن الحزمة؟</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-item active">
+                    <p>"لقد غيرت هذه الحزمة طريقة دراستي للأعصاب الدماغية! الرسومات واضحة جدًا والشرح مبسط ومفيد بشكل لا يصدق."</p>
+                    <div class="client-info">
+                        <div class="placeholder-avatar">👱</div> <h4>أحمد السعيد</h4>
+                        <span>طالب طب، جامعة القاهرة</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>"كنت أعاني كثيرًا من صعوبة فهم Cranial Nerves، ولكن بعد استخدام هذه الملفات، أصبحت المادة أسهل بكثير. شكرًا لكم!"</p>
+                    <div class="client-info">
+                        <div class="placeholder-avatar">👩</div> <h4>ليلى محمود</h4>
+                        <span>طالبة علوم صحية، جامعة الملك سعود</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>"محتوى منظم ومفصل، ساعدني في تحصيل درجات أعلى في مقرر التشريح. أنصح بها بشدة لكل طالب!"</p>
+                    <div class="client-info">
+                        <div class="placeholder-avatar">👨</div> <h4>محمد علي</h4>
+                        <span>طبيب امتياز، مستشفى جامعي</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <button class="prev-btn" aria-label="Previous Testimonial"><span>&#9664;</span></button>
+                <button class="next-btn" aria-label="Next Testimonial"><span>&#9654;</span></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2>الأسئلة الشائعة</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <h3 class="faq-question">كيف أستلم الملفات بعد الشراء؟ <span>&#9660;</span></h3>
+                    <div class="faq-answer">
+                        <p>بعد إتمام عملية الشراء بنجاح، ستتلقى رابط تحميل فوري للملفات عبر البريد الإلكتروني الذي قمت بتسجيله. يمكنك تحميلها مباشرة بعد الدفع.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">هل الملفات متوافقة مع جميع الأجهزة؟ <span>&#9660;</span></h3>
+                    <div class="faq-answer">
+                        <p>نعم، الملفات بصيغة PDF ويمكن فتحها على أي جهاز يدعم قراءة ملفات PDF (كمبيوتر، تابلت، هاتف ذكي) باستخدام أي برنامج لقراءة PDF.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">هل يمكنني طباعة الملفات؟ <span>&#9660;</span></h3>
+                    <div class="faq-answer">
+                        <p>بالتأكيد! يمكنك طباعة جميع الملفات لتسهيل دراستك ومراجعتك في أي وقت.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">هل يوجد دعم فني إذا واجهت مشكلة؟ <span>&#9660;</span></h3>
+                    <div class="faq-answer">
+                        <p>نعم، فريق الدعم الفني لدينا متاح لمساعدتك. يمكنك التواصل معنا عبر البريد الإلكتروني أو نموذج الاتصال الخاص بنا.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta-final" class="cta-final-section">
+        <div class="container">
+            <h2>جاهز لتغيير طريقة دراستك للأعصاب الدماغية؟</h2>
+            <p>لا تدع تعقيدات الأعصاب الدماغية توقفك عن التفوق. احصل على دليلك الشامل الآن وابدأ رحلة التعلم الممتعة.</p>
+            <p class="special-offer">عرض خاص لفترة محدودة: خصم 20% على الحزمة الكاملة!</p>
+            <a href="#" class="btn primary-btn large-btn">اشترِ حزمتك المتكاملة الآن!</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                    <li><a href="#">شروط الخدمة</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <a href="#" aria-label="Visit us on Facebook">&#xf09a;</a> <a href="#" aria-label="Visit us on Twitter">&#xf099;</a>  <a href="#" aria-label="Visit us on Instagram">&#xf16d;</a> </div>
+            <p>&copy; 2024 اسم موقعك. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script>
+        /* JavaScript Inlined for a single file solution */
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. التنقل السلس (Smooth Scrolling)
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // إغلاق قائمة التنقل في الهواتف بعد النقر
+                    const navUl = document.querySelector('.navbar nav ul');
+                    if (navUl && navUl.classList.contains('active')) {
+                        navUl.classList.remove('active');
+                    }
+                });
+            });
+
+            // 2. زر القائمة للهواتف (Menu Toggle for Mobile)
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navUl = document.querySelector('.navbar nav ul');
+
+            if (menuToggle && navUl) {
+                menuToggle.addEventListener('click', () => {
+                    navUl.classList.toggle('active');
+                });
+            }
+
+            // 3. قسم الأسئلة الشائعة (FAQ Accordion)
+            document.querySelectorAll('.faq-question').forEach(question => {
+                question.addEventListener('click', () => {
+                    const answer = question.nextElementSibling;
+                    const iconSpan = question.querySelector('span'); // تحديد الـ span الذي يحتوي على الرمز
+
+                    // إغلاق أي سؤال آخر مفتوح
+                    document.querySelectorAll('.faq-item').forEach(item => {
+                        if (item !== question.closest('.faq-item')) {
+                            const otherAnswer = item.querySelector('.faq-answer');
+                            const otherQuestion = item.querySelector('.faq-question');
+                            const otherIconSpan = otherQuestion.querySelector('span');
+
+                            if (otherQuestion.classList.contains('active')) {
+                                otherQuestion.classList.remove('active');
+                                otherIconSpan.textContent = '▼'; // رمز لأسفل
+                                otherAnswer.style.maxHeight = null;
+                            }
+                        }
+                    });
+
+                    // فتح أو إغلاق السؤال الحالي
+                    question.classList.toggle('active');
+                    if (question.classList.contains('active')) {
+                        iconSpan.textContent = '▲'; // رمز لأعلى
+                        answer.style.maxHeight = answer.scrollHeight + "px";
+                    } else {
+                        iconSpan.textContent = '▼'; // رمز لأسفل
+                        answer.style.maxHeight = null;
+                    }
+                });
+            });
+
+            // 4. الكاروسيل الخاص بالشهادات (Testimonial Carousel)
+            const testimonialCarousel = document.querySelector('.testimonial-carousel');
+            const prevBtn = document.querySelector('.carousel-nav .prev-btn');
+            const nextBtn = document.querySelector('.carousel-nav .next-btn');
+            let currentIndex = 0;
+
+            if (testimonialCarousel && prevBtn && nextBtn) {
+                const testimonials = document.querySelectorAll('.testimonial-item');
+                const totalTestimonials = testimonials.length;
+
+                const showTestimonial = (index) => {
+                    testimonials.forEach((item, i) => {
+                        item.classList.remove('active');
+                        item.style.display = 'none'; // إخفاء الكل أولاً
+                    });
+                    testimonials[index].classList.add('active');
+                    testimonials[index].style.display = 'block'; // إظهار النشط
+                };
+
+                prevBtn.addEventListener('click', () => {
+                    currentIndex = (currentIndex === 0) ? totalTestimonials - 1 : currentIndex - 1;
+                    showTestimonial(currentIndex);
+                });
+
+                nextBtn.addEventListener('click', () => {
+                    currentIndex = (currentIndex === totalTestimonials - 1) ? 0 : currentIndex + 1;
+                    showTestimonial(currentIndex);
+                });
+
+                showTestimonial(currentIndex); // عرض أول شهادة عند التحميل
+            }
+
+            // 5. معاينة الملفات (Simple alert for File Details)
+            document.querySelectorAll('.view-details-btn').forEach(button => {
+                button.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const fileId = e.target.dataset.fileId;
+                    alert(`هذه هي منطقة معاينة تفاصيل الملف ${fileId}. يمكنك هنا عرض وصف أطول للملف أو لقطات شاشة (إذا توفرت).`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
